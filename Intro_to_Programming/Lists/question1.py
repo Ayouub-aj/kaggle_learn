@@ -1,0 +1,9 @@
+# Do not change: Initial menu for your restaurant
+menu = ['stewed meat with onions', 'bean soup', 'risotto with trout and shrimp',
+       'fish soup with cream and onion', 'gyro']
+
+# TODO: remove 'bean soup', and add 'roasted beet salad' to the end of the menu
+menu.remove("bean soup")
+menu.append("roasted beet salad")
+
+print(menu)
